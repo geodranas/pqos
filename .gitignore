@@ -1,0 +1,31 @@
+# Local datasets and experiment outputs (retain directory placeholders).
+/datasets/*
+!/datasets/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/ml_models/*
+!/ml_models/.gitkeep
+
+# Auxiliary generated artifacts.
+/plots/
+/ai_sim/
+/omnet_sim/
+/plot_quanty
+/ddm_dbg.txt
+
+# Python and local environments.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local editor and operating system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
